@@ -7,7 +7,7 @@ REST API for depth estimation using Depth Anything V2. Analyzes depth at specifi
 
 ```bash
 # Install dependencies
-pip install flask flask-cors torch torchvision opencv-python pillow numpy matplotlib
+pip install -r requirements.txt
 
 # Install Depth Anything V2
 git clone https://github.com/DepthAnything/Depth-Anything-V2
