@@ -6,14 +6,12 @@ REST API for depth estimation using Depth Anything V2. Analyzes depth at specifi
 ## Quick Setup
 
 ```bash
+# clone this repository
+
 # Install dependencies
 pip install -r requirements.txt
 
-# Install Depth Anything V2
-git clone https://github.com/pkrishna1801/depth-anything-flask-app
-pip install -e .
-
-# Create checkpoints directory and download model
+# Create checkpoints directory and download model if checkpoint folder doesnt exist
 mkdir checkpoints
 cd checkpoints
 ```
